@@ -1,0 +1,2 @@
+# pythonattendancegui
+Determines attendance
