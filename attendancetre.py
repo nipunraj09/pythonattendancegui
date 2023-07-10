@@ -45,6 +45,7 @@ class AttendanceTracker(QMainWindow):
 
                 self.label_warning.setText("Warning: Attendance below 75%!")
                 self.label_warning.setStyleSheet("color: red")
+                self.label_warning.adjustsize()
             else:
                 self.label_warning.setText("")
 
